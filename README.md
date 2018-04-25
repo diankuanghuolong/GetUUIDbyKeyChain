@@ -11,8 +11,8 @@ GetUUIDbyKeyChain
         打开项目，依次找到Keychain Sharing打开：
         
         TARGETS->Capabilities->Keychain Sharing :ON
-        
-   此时，可以看到项目中自动生成一个后缀为.entitlements的文件。（可在demo的GetUUID文件夹下的SourceFile.bundle中查看示例图片）
+        可
+   此时，可以看到项目中自动生成一个后缀为.entitlements的文件。[点我查看](https://github.com/diankuanghuolong/GetUUIDbyKeyChain/blob/master/GetUUIDbyKeyChain/GetUUID/SourceFile.bundle/1.png)
         
    (2.)将demo中GetUUID文件夹拖入你的项目中，并在要调用的地方导入:
      
