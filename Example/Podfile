@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HaiGetUUID_Example' do
+  pod 'HaiGetUUID', :path => '../'
+
+  target 'HaiGetUUID_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
