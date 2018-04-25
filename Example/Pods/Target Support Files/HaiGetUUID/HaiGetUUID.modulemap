@@ -1,0 +1,6 @@
+framework module HaiGetUUID {
+  umbrella header "HaiGetUUID-umbrella.h"
+
+  export *
+  module * { export * }
+}
